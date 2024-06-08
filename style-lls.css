@@ -43,6 +43,7 @@ body {
   text-align: center;
   border-bottom: 1mm solid #e3e3a7;
   z-index: 2;
+  /* position: absolute; */
 }
 
 .topnav a {
@@ -71,7 +72,7 @@ body {
 
 .dropdown {
   clear:left;
-  overflow: hidden;
+  /* overflow: hidden; */
   display: inline-flex;
   flex-direction: column;
 }
@@ -83,19 +84,24 @@ body {
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
-  min-width: 160px;
+  /* min-width: 150px; */
+  /* max-width: 100px; */
   margin: 0;
+  /* position: relative; */
 }
 .dropdown-content {
   display: none;
+  /* position: absolute; */
   position: relative;
   background-color: #34455c;
   /* min-width: 206px; */
+  /* Best I could come up with is to 'max-width' this to provent layout changes' */
+  max-width: 134px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 2;
 }
 .dropdown-content a {
-  float: none;
+  /* float: none; */
   color: #e3e3a7;
   font-size: 16px; 
   padding: 14px 16px;
@@ -108,7 +114,7 @@ body {
   color: #04155c;
 }
 .dropdown:hover .dropdown-content {
-  display: inline-block;
+  display: block;
 }
 
 
@@ -130,6 +136,21 @@ body {
   margin: auto;
 }
 
+.maintextbody-home {
+  display:block;
+  position:relative;
+  padding-top:10px;
+  padding-bottom:10px;
+  width: 63%;
+  margin: auto;
+}
+
+.copyfooter {
+  text-align: center;
+  padding-bottom:50px;
+  width: 63%;
+  margin: auto;
+}
 
 .footer {
   position: fixed;
@@ -205,3 +226,32 @@ input[type=submit]:hover {
   padding: 187px;
 }
 
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* .portrait {
+  height: 80px;
+  width: 30px;
+} */
+.home-img {
+  height: 63%;
+  width: 63%;
+  margin: auto;
+}
+
+/* .landscape {
+  height: 70%;
+  width: 70%;
+} */
+
+/* .landscape {
+  height: 30px;
+  width: 80px;
+} */
+
+/* .square {
+  height: 75px;
+  width: 75px;
+} */
