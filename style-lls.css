@@ -96,6 +96,7 @@ body {
 .dropdown-content a {
   float: none;
   color: #e3e3a7;
+  font-size: 12px; 
   padding: 14px 16px;
   text-decoration: none;
   display: block;
