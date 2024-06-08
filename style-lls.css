@@ -89,7 +89,7 @@ body {
   display: none;
   position: relative;
   background-color: #34455c;
-  min-width: 206px;
+  /* min-width: 206px; */
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 2;
 }

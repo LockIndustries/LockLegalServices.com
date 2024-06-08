@@ -15,7 +15,7 @@
         <!-- <img src="logo.png" class="profile-picture" alt="Header Logo"> -->
         <h1 class="title">Lock Legal Services</h1>
     </div>
-        
+    
     <div class="topnav">
       <a href="index.html">HOME</a>
       <!-- <a href="index2.html">ABOUT THE FIRM</a> -->
@@ -55,10 +55,30 @@
     </div>
     
     <!-- MAIN CONTENT -->
-    <div class="maintextbody">
-      <h1 style="text-align:center;font-size:60px;">Privacy Policy</h1>
+    <div class="container">
+      <form action="https://35.188.177.166:5000" method="PUT">
+      <!-- <form action="https://35.188.177.166:5000" method="POST"> -->
+    
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+    
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+    
+      </form>
     </div>
-
 
 
     <!-- FOOTER -->
