@@ -1,2 +1,2 @@
-# LockLegalServices.com
-LockLegalServices.com
+# locklegalservices.com
+locklegalservices.com static web page
