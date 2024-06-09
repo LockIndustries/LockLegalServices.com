@@ -56,7 +56,7 @@
     
     <!-- MAIN CONTENT -->
     <div class="container">
-      <form action="https://35.188.177.166:5000" method="PUT">
+      <form id="myform" method="POST" action="https://35.188.177.166:5000">
       <!-- <form action="https://35.188.177.166:5000" method="POST"> -->
     
         <label for="fname">First Name</label>
@@ -75,10 +75,10 @@
         <label for="subject">Subject</label>
         <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
         
-        <input type="hidden" id="custId" name="custId" value="2401">
-        <input type="hidden" id="custName" name="custName" value="LockLegalServices-consultation">
+        <!-- <input type="hidden" id="custId" name="custId" value="2401">
+        <input type="hidden" id="custName" name="custName" value="LockLegalServices-consultation"> -->
 
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit form="myform">
     
       </form>
     </div>
