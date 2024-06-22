@@ -23,6 +23,7 @@ body {
 }
 .title {
   font-family: 'Brush Script MT', cursive;
+  /* font-family: 'Times New Roman'  */
   #font-family: 'Bebas Neue', sans-serif;
   color: #e3e3a7;
   #text-transform: uppercase;
