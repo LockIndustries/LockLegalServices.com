@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=utf-8 />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style-lls.css">
+    <title>Lock Legal Services</title>
+  </head>
+
+
+  <body>
+
+    <!-- BANNER -->
+    <div class="banner">
+        <!-- <img src="logo.png" class="profile-picture" alt="Header Logo"> -->
+        <h1 class="title">Lock Legal Services</h1>
+    </div>
+    
+    <div class="topnav">
+      <a href="index.html">HOME</a>
+      <!-- <a href="index2.html">ABOUT THE FIRM</a> -->
+      <!-- <a href="practiceareas.html">PRACTICE AREAS</a> -->
+      <i class="dropdown">
+        <button class="dropbtn">ABOUT US</button>
+        <i class="dropdown-content">
+          <a href="jamedalocker.html">Jameda Locker</a>
+          <a href="elizabethgilliam.html">Elizabeth Gilliam</a>
+          <a href="michaelclocker.html">Michael C. Locker</a>
+        </i>
+      </i>
+      <i class="dropdown">
+        <button class="dropbtn">PRACTICE</button>
+        <i class="dropdown-content">
+
+          <a href="contracts.html">Contracts</a>
+          <a href="realestate.html">Real Estate</a>
+          <a href="taxdisputes.html">Tax Disputes</a>
+          <a href="criminallaw.html">Criminal Law</a>
+
+          <!-- <a href="index.html">Family Law</a>
+          <a href="index.html">Criminal Law</a>
+          <a href="index.html">Bankruptcy</a>
+          <a href="index.html">Personal Injury</a>
+          <a href="index.html">Wills and Estates</a> -->
+
+          <!-- <a href="index.html">Driving Under Influence (DUI)</a>
+          <a href="about.html">Drug Possesion and Distribution</a>
+          <a href="about.html">General Criminal Defense</a> -->
+          
+        </i>
+      </i>
+      <a href="blog.html">BLOG</a>
+      <a href="consultation.html">CONSULTATION</a>
+
+    </div>
+    
+    <!-- MAIN CONTENT -->
+    <div class="container">
+      <form id="myform" method="POST" action="https://35.188.177.166:5000">
+      <!-- <form action="https://35.188.177.166:5000" method="POST"> -->
+
+        <label for="casetype">Case Type</label>
+        <select id="casetype" name="casetype">
+          <option value="criminal">Criminal</option>
+          <option value="taxdispute">Tax Dispute</option>
+          <option value="contracts">Contracts</option>
+          <option value="realestate">Real Estate</option>
+        </select>
+
+    
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="First Name">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Last Name">
+
+        <br><br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+        <br><br><br>
+
+        <label for="phone">Phone Number</label>
+        <input type="text" id="phone" name="phone" placeholder="Phone Number">
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Email Address">
+
+        <label for="address">Home Address</label>
+        <input type="text" id="address" name="address" placeholder="Home address">
+
+        <label for="city">City</label>
+        <input type="text" id="city" name="city" placeholder="City">
+
+        <label for="state">State</label>
+        <input type="text" id="state" name="state" placeholder="State">
+
+        <label for="zip">Zipcode</label>
+        <input type="text" id="zip" name="zip" placeholder="Zipcode">
+
+        <label for="employer">Employer</label>
+        <input type="text" id="employer" name="employer" placeholder="Name of Employer">
+
+        <label for="ephone">Phone</label>
+        <input type="text" id="ephone" name="ephone" placeholder="Employer's phone number">
+
+        <label for="csource">How did you find us?</label>
+        <select id="csource" name="csource">
+          <option value="google">Google</option>
+          <option value="avvo">Avvo</option>
+          <option value="ypages">Yellow Pages</option>
+          <option value="rclient">Return Client</option>
+          <option value="rperson">Referred by a friend</option>
+        </select>
+
+        <label for="nom">Nature of Matter</label>
+        <textarea id="nom" name="nom" placeholder="Use this form to contact us regarding your legal inquiry. Please be as detailed as possible. Include your industry along with any specific document requests. To help us best service your inquiry, we recommend that you first describe the issue you’re having before telling us what you want to achieve. You may also call us to make an appointment. Please do not include confidential or sensitive information in your message. In the event that we are representing a party with opposing interests to your own, we may have a duty to disclose any information you provide to our client" style="height:200px"></textarea>
+        
+        <!-- <input type="hidden" id="custId" name="custId" value="2401">
+        <input type="hidden" id="custName" name="custName" value="LockLegalServices-consultation"> -->
+
+        <input type="submit" value="Submit" form="myform">
+    
+      </form>
+    </div>
+
+
+    <!-- FOOTER -->
+    <div class="footer">
+      <a href="https://www.avvo.com/attorneys/62521-il-michael-locker-4976139.html">Review Us</a>
+      <a href="disclaimer.html">Disclaimer</a>
+      <a href="privacypolicy.html">Privacy Policy</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+
+  </body>
+</html>
