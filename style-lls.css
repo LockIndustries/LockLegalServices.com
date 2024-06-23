@@ -232,6 +232,13 @@ img {
 .home-img {
   height: 63%;
   width: 63%;
+  max-width: 800px;
+  margin: auto;
+}
+
+.about-img {
+  width: 63%;
+  max-width: 800px;
   margin: auto;
 }
 
